@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+require 'poopypants'
+
+first = ""
+while first == ""
+  print "What is your first name: "
+  first = gets.chomp
+end
+
+last = ""
+while last == ""
+  print "What is your last name: "
+  last = gets.chomp
+end
+
+name = Poopypants::Name.new(first, last)
+
+puts ""
+puts "\u{1f4a9} " * 40
+puts ""
+puts "Hello, #{name.first} #{name.last}!"
+puts ""
+puts "According to Professor Poopypants, your new name is #{name.change}."
+puts ""
+puts "Haha! :)"
+puts ""
+puts "\u{1f4a9} " * 40
+puts ""
