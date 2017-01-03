@@ -21,7 +21,7 @@ puts "\u{1f4a9} " * 40
 puts ""
 puts "Hello, #{name.first} #{name.last}!"
 puts ""
-puts "According to Professor Poopypants, your new name is #{name.change}."
+puts "According to Professor Poopypants, your new name is #{name.poopify}."
 puts ""
 puts "Haha! :)"
 puts ""
