@@ -38,10 +38,15 @@ And then call `change` on it!
 
 ```ruby
 name.change
-=> Crusty Bubbletush
+=> "Crusty Bubbletush"
 ```
 
+
 That's it!
+
+# CLI
+
+There's also a super awesome command line interface. After you've installed the gem, just call `poopypants` in the terminal and see what fun you can have!
 
 ## Contributing
 
