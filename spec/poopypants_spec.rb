@@ -7,7 +7,7 @@ describe Poopypants do
 
   it "returns new name" do
     name = Poopypants::Name.new("Eli", "Duke")
-    expect(name.change).to eq "Crusty Bubbletush"
+    expect(name.poopify).to eq "Crusty Bubbletush"
   end
 
   it "strips out all non-alpha characters for first and last name" do
@@ -18,11 +18,11 @@ describe Poopypants do
 
   it "handles empty string being submitted for first" do
     name = Poopypants::Name.new("Eli", " ")
-    expect(name.change).to eq nil
+    expect(name.poopify).to eq nil
   end
 
   it "handles empty string being submitted for last name" do
     name = Poopypants::Name.new(" ", "Duke")
-    expect(name.change).to eq nil
+    expect(name.poopify).to eq nil
   end
 end

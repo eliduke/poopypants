@@ -13,7 +13,7 @@ module Poopypants
       @last = last.gsub(/\W+|\d+|_/, '')
     end
 
-    def change
+    def poopify
       new_name unless @first.empty? || @last.empty?
     end
 

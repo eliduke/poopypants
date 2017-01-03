@@ -34,10 +34,10 @@ It's really simple! Just create a new Poopypants object:
 name = Poopypants::Name.new("Eli", "Duke")
 ```
 
-And then call `change` on it!
+And then call `poopify` on it!
 
 ```ruby
-name.change
+name.poopify
 => "Crusty Bubbletush"
 ```
 
