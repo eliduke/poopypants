@@ -16,12 +16,12 @@ describe Poopypants do
     expect(name.last).to eq "Duke"
   end
 
-  it "handles empty string being submitted for first" do
+  it "handles empty string being submitted for last name" do
     name = Poopypants::Name.new("Eli", " ")
     expect(name.poopify).to eq nil
   end
 
-  it "handles empty string being submitted for last name" do
+  it "handles empty string being submitted for first name" do
     name = Poopypants::Name.new(" ", "Duke")
     expect(name.poopify).to eq nil
   end
