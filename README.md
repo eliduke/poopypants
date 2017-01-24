@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/poopypants.svg)](https://badge.fury.io/rb/poopypants)
+
 # Poopypants
 
 This all started a long time ago.
